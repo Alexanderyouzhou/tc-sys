@@ -1,0 +1,4 @@
+{
+	"test":"/rest/tcweb/test.api",
+	"post":"/rest/tcweb/post.api"
+}

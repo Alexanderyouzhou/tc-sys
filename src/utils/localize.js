@@ -1,0 +1,1 @@
+module.exports = LANG==="en_US"?require('../values/en_US.json'):require('../values/zh_CN.json')

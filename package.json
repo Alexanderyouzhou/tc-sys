@@ -1,0 +1,34 @@
+{
+  "name": "tc-class-sys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.lang=en_US --env.NODE_ENV=development --open --config ./build/webpack.dev.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^5.8.38",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.9",
+    "html-webpack-plugin": "^2.30.1",
+    "vue-hot-reload-api": "^2.2.4",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^13.7.0",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
+}
